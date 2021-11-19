@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+}
+body{
+    background-color: rgb(239, 131, 84);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 300px;
+    padding: 3em;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.input-box{
+    height: 35px;
+    display: flex;
+}
+input{
+    flex-grow: 1;
+}
+button{
+    background-color: rgb(233, 95, 35);
+    color: white;
+    text-transform: uppercase;
+}
+input, button{
+    padding: 0 1em;
+    display: block;
+    border: none;
+    outline: none;
+}
+
+#result{
+    color: white;
+    word-break: break-all;
+    font-size: 1.2em;
+    text-align: center;
+    display: block;
+    margin-top: 1em;
+}
